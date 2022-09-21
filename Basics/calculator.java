@@ -8,7 +8,7 @@ public class calculator {
         Scanner sc=new Scanner(System.in);
         System.out.println("Enter operater");
         char ch=sc.next().trim().charAt(0);
-        while(true) {
+
             System.out.println("Enter first");
             int a = sc.nextInt();
             System.out.println("Enter second number");
@@ -24,7 +24,7 @@ public class calculator {
                     System.out.println(a * b);
                 else
                     System.out.println(a % 10);
-            }
+
             System.out.println("\t\t\tNEW CALCULATION");
         }
 
