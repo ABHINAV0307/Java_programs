@@ -25,6 +25,7 @@ public class Two_Dim {
             }
             System.out.println("\n");
         }
+
       for(int[] r:a
       ){
           System.out.println(Arrays.toString(r));
