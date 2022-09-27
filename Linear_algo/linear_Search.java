@@ -4,18 +4,30 @@ import java.util.Scanner;
 
 public class linear_Search {
     public static void main(String[] args) {
-
-
         Scanner sc = new Scanner(System.in);
-        int[] arr = new int[5];
-        System.out.println("Enter elemnt to search");
-        int k=sc.nextInt();
-        for (int i = 0;i<5;i++){
-            arr[i] = sc.nextInt();
+
+        System.out.print("Enter element to search");
+        int k = sc.nextInt();
+int [] arr=new int[5];
+        //System.out.println("Enter Element of Array");
+        for(int i=0;i<5;i++){
+            arr[i]=sc.nextInt();
         }
-        System.out.println(check(arr),k);
+
+
+        int checking = check(arr, k);
+        System.out.println(checking);
     }
-    static Boolean check(int []a){
-        if()
+
+    static int check(int[] arr, int b) {
+        for (int i = 0; i < 5; i++) {
+            if (arr[i] == b)
+            {
+                return i;
+            }
+        }
+            return -1;
+
+
+        }
     }
-}
