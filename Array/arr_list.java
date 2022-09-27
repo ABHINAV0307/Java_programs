@@ -16,6 +16,6 @@ public class arr_list {
         list.remove(1);
         System.out.println(list);
 
-        
+
     }
 }
