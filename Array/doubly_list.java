@@ -19,7 +19,7 @@ public class doubly_list {
 
                 //list.get(i).add(in.nextInt());
                 System.out.println(list);
-            
+
         }
     }
 }
