@@ -25,7 +25,7 @@ class abhi {
     public static void main(String[] args)
     {
         int arr[] = { 1, 2, 2, 2, 2, 3, 4, 7, 8, 8 };
-        int x = 8;
+        int x = 2;
         findFirstAndLast(arr, x);
     }
 }
