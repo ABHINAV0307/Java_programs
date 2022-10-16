@@ -17,7 +17,7 @@ class abhi {
             System.out.println("First Occurrence = "
                     + first);
             System.out.println("Last Occurrence = " + last);
-        }//new 
+        }//new
         else
             System.out.println("Not Found");
     }
