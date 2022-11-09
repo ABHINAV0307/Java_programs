@@ -5,6 +5,6 @@ public class pattern {
         patt(4);
     }
      public static void patt(int a){
-        
+
     }
 }
