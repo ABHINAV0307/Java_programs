@@ -1,6 +1,5 @@
 package com.abhi.Pattern;
 import java.lang.Math;
-
 public class pattern {
     public static void main(String[] args) {
         patt(4);
