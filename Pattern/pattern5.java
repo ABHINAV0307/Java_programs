@@ -1,5 +1,5 @@
 package com.abhi.Pattern;
-//PATTERN TO PRINT 
+//PATTERN TO PRINT
 //        44444
 //        43334
 //        43234
