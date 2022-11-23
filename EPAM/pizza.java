@@ -11,7 +11,7 @@ public class pizza {
         int a=sc.nextInt();
         int val=a*b;
         for(int i=a;i<val;i=i+8){
-            if(b%i==0)
+            if(val%i==0)
                 k++;
         }
         System.out.println(k);
