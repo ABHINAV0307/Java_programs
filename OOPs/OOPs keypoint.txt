@@ -1,0 +1,4 @@
+OOPS-1
+object are stored in heap memory and references are stored in stack memory
+dot operator/seperator is used to link instance variable with reference variable 
+when value is not initialised it return as null type
