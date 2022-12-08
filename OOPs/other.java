@@ -9,7 +9,6 @@ public class other {
 static class Student {
         int rno;
         String name;
-
         Student (Student other){
             this.name=other.name;
             this.rno=other.rno;
@@ -19,6 +18,8 @@ static class Student {
              this.rno=10;
             this.name="aBhi";
     }
+    //calling one constructor from another
+
 }
 }
 
