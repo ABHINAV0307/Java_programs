@@ -3,5 +3,11 @@ OOPS-1
 -dot operator/seperator is used to link instance variable with reference variable 
 -when value is not initialised it return as null type
 -All class in java may be allocated dynamically(see compile time and runtime part)
--java is static type language(if instance part is not previously declared its going to    	show error)
--
+-java is static type language(if instance part is not previously declared its going to show error)
+-final variables has to be initialised while declaration
+-final keyword should be written in all capital
+-when a non-premitive is final you cant reassign
+-FINALISED is used in java as garbage collector it is mostly called automatically
+
+OOPS-2
+-Pakages are container to classes
