@@ -14,3 +14,4 @@ OOPS-2
 -Properties that are not directly related to the object are called Static
 -Why main is declared as static?-->if its not static you have to create object of class to run every time
 -inside static you cant use anything thats not static
+-Static variables are class level stuff
