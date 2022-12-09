@@ -11,3 +11,4 @@ OOPS-1
 
 OOPS-2
 -Pakages are container to classes
+-Properties that are not directly related to the object are called Static
