@@ -8,3 +8,7 @@ OOPS-1
 -final keyword should be written in all capital
 -when a non-premitive is final you cant reassign
 -FINALISED is used in java as garbage collector it is mostly called automatically
+
+OOPS-2
+-Pakages are container to classes
+-Properties that are not directly related to the object are called Static
