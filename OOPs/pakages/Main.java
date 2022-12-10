@@ -8,6 +8,7 @@ public class Main {
 
         human abhi = new human(22, "abhinav", 1200000, false);
         human rahul = new human(22, "rahul", 120042, true);
+        System.out.println(abhi.population); //dont do this its not good practise
         System.out.println(rahul.population);
     }
 }
