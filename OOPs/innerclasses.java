@@ -5,8 +5,11 @@ class test{
     }
 }
 public class innerclasses {
+    public static void main(String[] args) {
         test a=new test("abhi");
+        test b=new test("nav");
         System.out.println(a.name);
+        System.out.println(b.name);
     }
 
 }
