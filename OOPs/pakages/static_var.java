@@ -1,3 +1,4 @@
+package com.abhi.OOPs.pakages;
 
 public class static_var {
     public static void main(String[] args) {
@@ -11,3 +12,5 @@ public class static_var {
     }
     void greeting(){
         fun();
+    }
+}
