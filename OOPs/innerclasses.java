@@ -1,3 +1,5 @@
+package com.abhi.OOPs;
+
 class test{
     static String name;
     public test(String name){
