@@ -7,3 +7,4 @@ public class try1 {
         System.out.println(human.population);
         //static variables don't require object creation for calling
     }
+}
