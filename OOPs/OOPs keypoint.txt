@@ -19,5 +19,8 @@ OOPS-2
 -Static variables are class level stuff are resolved during compile time.
 -Singalton class-can only create one object(done using private keyword)
 
+
+-copy constructor is important keep in mind
+-Private can only be used in that block
 -you can only access extra variables that are above untill and unless they are private
 -It is type of reference variable not the object that determine what members can be accesed
