@@ -20,6 +20,7 @@ OOPS-2
 -Singalton class-can only create one object(done using private keyword)
 
 
+-child class is inheriting properties from base class
 -copy constructor is important keep in mind
 -Super keyword is used to call the parent class constructor or initialise value of parent class
 -Private can only be used in that block
