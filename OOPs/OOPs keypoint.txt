@@ -18,4 +18,5 @@ OOPS-2
 -Outside classes cant be static- as its not dependent on any other class
 -Static variables are class level stuff are resolved during compile time.
 -Singalton class-can only create one object(done using private keyword)
--
+-you can only access extra variables that are above untill and unless they are private
+-It is type of reference variable not the object that determine what members can be accesed
