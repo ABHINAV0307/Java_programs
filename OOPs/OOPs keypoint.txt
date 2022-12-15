@@ -10,6 +10,7 @@ OOPS-1
 -FINALISED is used in java as garbage collector it is mostly called automatically
 
 OOPS-2
+-Packages are container to classes
 -Properties that are not directly related to the object are called Static
 -Why main is declared as static?-->if its not static you have to create object of class to run every time
 -inside static you cant use anything thats not static
