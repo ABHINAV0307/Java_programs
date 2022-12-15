@@ -27,3 +27,4 @@ OPPS-3
 -Private can only be used in that block
 -you can only access extra variables that are above untill and unless they are private
 -It is type of reference variable not the object that determine what members can be accesed
+-Multiple inheritence is not supported in java as it can have ambiguity
