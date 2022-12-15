@@ -6,6 +6,7 @@ OOPS-1
 -java is static type language(if instance part is not previously declared its going to show error)
 -final variables has to be initialised while declaration
 -final keyword should be written in all capital
+-when a non-primitive is final you cant reassign
 -FINALISED is used in java as garbage collector it is mostly called automatically
 
 OOPS-2
