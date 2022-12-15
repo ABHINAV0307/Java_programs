@@ -16,8 +16,6 @@ OOPS-2
 -you cannot use this keyword inside static class
 -Outside classes cant be static- as its not dependent on any other class
 -Static variables are class level stuff are resolved during compile time.
--Singalton class-can only create one object(done using private keyword)
-
 
 -child class is inheriting properties from base class
 -java uses extend keyword to do previous point
