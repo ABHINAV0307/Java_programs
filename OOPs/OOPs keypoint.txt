@@ -19,6 +19,7 @@ OOPS-2
 -Static variables are class level stuff are resolved during compile time.
 -Singleton class-can only create one object(done using private keyword)
 
+OPPS-3
 -child class is inheriting properties from base class
 -java uses extend keyword to do previous point
 -copy constructor is important keep in mind
