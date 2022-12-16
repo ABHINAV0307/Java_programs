@@ -32,3 +32,4 @@ OPPS-3
 -What has to be called is determined using what is type of object used.
 -Study dynamic dispatching and upcasting
 -You cant override a method if it is written as final
+-Study early binding and late binding
