@@ -34,3 +34,4 @@ OPPS-3
 -You cant override a method if it is written as final
 -Study early binding and late binding
 -If class is written as final it cant be further inherited
+-Overriding dep ends on object whereas static doesnot depend on object therefore cant be overridden
