@@ -36,3 +36,4 @@ OPPS-3
 -If class is written as final it cant be further inherited
 -Overriding dep ends on object whereas static doesnot depend on object therefore cant be overridden
 -Abstraction is solving design level issue,Encapsulation solve implementation level issue
+-Abstraction is done using getter and setter
