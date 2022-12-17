@@ -38,3 +38,4 @@ OPPS-3
 -Abstraction is solving design level issue,Encapsulation solve implementation level issue
 -Abstraction is process of gaining info, Whereas encapsulation is process of containing info
 -Abstraction is done using getter and setter
+-Data hiding is achieved via encapsulation
