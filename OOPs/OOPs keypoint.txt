@@ -42,5 +42,6 @@ OPPS-3
 -Data hiding is achieved via encapsulation
 
 OOPS-4
+-Private-->sensitive data
 -Subclasses can access protected data in similar packages
 -Protected-->sensitive but tempering of data is allowed
