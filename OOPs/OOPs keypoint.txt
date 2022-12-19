@@ -35,6 +35,7 @@ OPPS-3
 -Study early binding and late binding
 -If class is written as final it cant be further inherited
 -Protected data that are inherited become private data
+-Overriding dep ends on object whereas static doesn't depend on object therefore cant be overridden
 -Abstraction is solving design level issue,Encapsulation solve implementation level issue
 -Abstraction is process of gaining info, Whereas encapsulation is process of containing info
 -Abstraction is done using getter and setter
