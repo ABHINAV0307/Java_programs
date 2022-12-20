@@ -25,7 +25,6 @@ OPPS-3
 -copy constructor is important keep in mind
 -Super keyword is used to call the parent class constructor or initialise value of parent class
 -Private can only be used in that block
--you can only access extra variables that are above untill and unless they are private
 -It is type of reference variable not the object that determine what members can be accesed
 -Multiple inheritance is not supported in java as it can have ambiguity
 -The term object-based language may be used in a technical sense to describe any programming language that uses the idea of encapsulating what  and operations inside objects.
