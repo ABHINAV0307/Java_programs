@@ -45,4 +45,3 @@ OPPS-3
 OOPS-4
 -Private-->sensitive data
 -Subclasses can access protected data in similar packages
--Protected-->sensitive but tempering of data is allowed-Protected-->sensitive but tempering of data is allowed
