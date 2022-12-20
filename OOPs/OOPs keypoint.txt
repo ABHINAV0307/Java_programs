@@ -15,7 +15,6 @@ OOPS-2
 -Why main is declared as static?-->if it's not static you have to create object of class to run every time
 -inside static you cant use anything that's not static
 -you cannot use this keyword inside static class
--Outside classes can't be static- as its not dependent on any other class
 -Static variables are class level stuff are resolved during compile time.
 -Singleton class-can only create one object(done using private keyword)
 
