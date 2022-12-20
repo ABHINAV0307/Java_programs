@@ -45,3 +45,4 @@ OPPS-3
 OOPS-4
 -Private-->sensitive data
 -Subclasses can access protected data in similar packages
+-Only the subclass can access the members in protected class if its outside the package not even class
