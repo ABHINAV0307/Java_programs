@@ -47,6 +47,7 @@ OOPS-4
 -Subclasses can access protected data in similar packages
 -Protected-->sensitive but tempering of data is allowed
 -Only the subclass can access the members in protected class if it's outside the package not even class
+-See "instance of" operator (this return true or false value )
 -getClass() is stored in heap
 
 OOPS-5
