@@ -59,3 +59,4 @@ OOPS-5
 -You cant create object of abstract class as its body is empty
 -In interfaces functions are static and variables are static/final
 -It uses implement keyword
+-Class can implement more than one interfaces but can inherit only single super class
