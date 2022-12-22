@@ -47,6 +47,7 @@ OOPS-4
 -Subclasses can access protected data in similar packages
 -Protected-->sensitive but tempering of data is allowed
 -Only the subclass can access the members in protected class if it's outside the package not even class
+-Every class in java is inheriting object class
 -Hash Code-unique representation of object by number
 - "==" checks are they pointing to same object or not but .equals() checks the content of it
 -See "instance of" operator (this return true or false value )
