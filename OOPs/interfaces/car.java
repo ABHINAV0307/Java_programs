@@ -17,4 +17,6 @@ public class car implements engine,brake{
 
     }
 
+    @Override
+    public void acc() {
 }
