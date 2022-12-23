@@ -19,4 +19,6 @@ public class car implements engine,brake{
 
     @Override
     public void acc() {
+        System.out.println("I accelerate like normal car");
+
 }
