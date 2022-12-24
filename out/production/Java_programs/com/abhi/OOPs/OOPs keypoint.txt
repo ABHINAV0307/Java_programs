@@ -12,7 +12,6 @@ OOPS-1
 OOPS-2
 -Packages are container to classes
 -Properties that are not directly related to the object are called Static
--Why main is declared as static?-->if its not static you have to create object of class to run every time
 -inside static you cant use anything thats not static
 -you cannot use this keyword inside static class
 -Outside classes cant be static- as its not dependent on any other class
