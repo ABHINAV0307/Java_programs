@@ -17,5 +17,4 @@ OOPS-2
 -you cannot use this keyword inside static class
 -Outside classes can't be static- as it's not dependent on any other class
 -Static variables are class level stuff are resolved during compile time.
--Singalton class-can only create one object(done using private keyword)
 -
