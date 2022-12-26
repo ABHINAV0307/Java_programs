@@ -1,3 +1,5 @@
+public class electric_engine implements engine {
+
         System.out.println("Electric engine start");
     }
 
