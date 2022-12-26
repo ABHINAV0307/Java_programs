@@ -2,6 +2,7 @@ public class electric_engine implements engine {
 
 
     @Override
+    public void start() {
         System.out.println("Electric engine start");
     }
 
