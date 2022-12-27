@@ -15,6 +15,9 @@ public class main {
            System.out.println(e.getMessage());
        }
        catch (Exception e){
+           System.out.println("Normal Exception");
+       }finally {
+           System.out.println("This will be always executed");
        }
 
     }
