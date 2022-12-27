@@ -9,3 +9,10 @@ public class main {
 
            String name="Abhinav";
            if(name.equals("Abhinav")){
+    static int divide(int a,int b){
+        if(b==0){
+            throw new ArithmeticException("Please dont divide by zero");
+        }
+        return a/b;
+    }
+}
