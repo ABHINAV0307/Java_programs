@@ -9,6 +9,12 @@ public class main {
 
            String name="Abhinav";
            if(name.equals("Abhinav")){
+               throw new myexception("name is abhinav");
+           }
+       } catch (ArithmeticException e){
+           System.out.println(e.getMessage());
+       }
+       catch (Exception e){
     static int divide(int a,int b){
         if(b==0){
             throw new ArithmeticException("Please dont divide by zero");
