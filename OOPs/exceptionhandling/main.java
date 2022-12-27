@@ -15,6 +15,9 @@ public class main {
            System.out.println(e.getMessage());
        }
        catch (Exception e){
+       }
+
+    }
     static int divide(int a,int b){
         if(b==0){
             throw new ArithmeticException("Please dont divide by zero");
