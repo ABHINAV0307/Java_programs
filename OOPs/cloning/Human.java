@@ -10,4 +10,6 @@ public class human implements Cloneable {
     public human(human other){
         this.age=other.age;
         this.name=other.name;
+    }
+    public Object clone() throws CloneNotSupportedException{
 }
