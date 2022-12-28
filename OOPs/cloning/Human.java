@@ -1,4 +1,7 @@
 package com.abhi.OOPs.cloning;
 
-public class Human {
+public class human implements Cloneable {
+    int age;
+    String name;
+    public human(int age,String name){
 }
