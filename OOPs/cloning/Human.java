@@ -7,4 +7,7 @@ public class human implements Cloneable {
         this.age=age;
         this.name=name;
     }
+    public human(human other){
+        this.age=other.age;
+        this.name=other.name;
 }
