@@ -9,5 +9,7 @@ public class A {
 class B implements A.nestedinterface{
 
     @Override
+    public boolean isodd(int num) {
+        return (num & 1)==1;
     }
 }
