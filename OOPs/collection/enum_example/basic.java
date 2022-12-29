@@ -1,3 +1,7 @@
+        //type of week
+week(){
+    System.out.println("Constructor for "+ this);
+}
         @Override
         public void hello() {
             System.out.println("how are you");
