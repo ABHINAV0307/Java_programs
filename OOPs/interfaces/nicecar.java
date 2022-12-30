@@ -7,3 +7,7 @@ public class nicecar {
     }
 
     public nicecar(engine engine){
+        this.engine= engine;
+    }
+    public void start(){
+        engine.start();
