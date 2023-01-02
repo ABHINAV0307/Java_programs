@@ -10,3 +10,9 @@ public class powerengine implements engine{
 
     @Override
     public void stop() {
+    @Override
+    public void acc() {
+        System.out.println("Engine accelerate");
+
+    }
+}
