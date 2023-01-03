@@ -19,3 +19,4 @@ OOPS-2
 -Static variables are class level stuff are resolved during compile time.
 -Singleton class-can only create one object(done using private keyword)
 
+OPPS-3
