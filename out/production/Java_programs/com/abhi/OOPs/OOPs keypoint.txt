@@ -21,3 +21,4 @@ OOPS-2
 
 OPPS-3
 -child class is inheriting properties from base class
+-java uses extend keyword to do previous point
