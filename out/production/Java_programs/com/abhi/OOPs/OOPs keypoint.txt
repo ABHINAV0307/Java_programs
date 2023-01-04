@@ -24,3 +24,4 @@ OPPS-3
 -java uses extend keyword to do previous point
 -copy constructor is important keep in mind
 -Super keyword is used to call the parent class constructor or initialise value of parent class
+-Private can only be used in that block
