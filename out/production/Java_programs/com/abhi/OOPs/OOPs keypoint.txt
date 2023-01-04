@@ -20,3 +20,4 @@ OOPS-2
 -Singleton class-can only create one object(done using private keyword)
 
 OPPS-3
+-child class is inheriting properties from base class

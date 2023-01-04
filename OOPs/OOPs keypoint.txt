@@ -59,3 +59,23 @@ OOPS-5
 -You cant create object of abstract class as its body is empty
 -In interfaces functions are static and variables are static/final
 -It uses implement keyword
+-Class can implement more than one interfaces but can inherit only single super class
+-Multiple inheritance is implemented using interfaces
+-Two classes that are not related to each other can also implement interfaces
+-Works as same as dynamic method dispatch
+-Dont use interfaces in performance critical code as it is done at runtime
+-As all of the things are directly related to main class therefore any small change in interface will reflect to all
+Thus it is good to create separate classes for separate functionalities
+-Nested interface can be either public private or protected whereas top level interface need to be public or default one
+
+OOPS-6
+-Arraylist stores the value one by one when space is filled it make new list of double size and store previous element then new one
+-Above operation take average of constant time
+-Generics help us to have specific type of value in list/custom list(using object type)
+-WilCard defines what type of item you can provide
+-You cant recover from error at runtime but in case of exception you can correct those
+-try tell that try all the things that are in block but if any error come go to catch
+-There is difference between throw and throws as throws tell that this may throw exception
+-finally used can only be used once
+-the part "implement Cloneable" tells JVM that we are going to use clone further for object cloning
+-Learn about shalllow and deep copy of object
