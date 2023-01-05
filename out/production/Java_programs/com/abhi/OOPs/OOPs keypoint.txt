@@ -26,3 +26,4 @@ OPPS-3
 -Super keyword is used to call the parent class constructor or initialise value of parent class
 -Private can only be used in that block
 -you can only access extra variables that are above until and unless they are private
+-It is type of reference variable not the object that determine what members can be accesed
