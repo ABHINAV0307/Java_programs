@@ -30,3 +30,4 @@ OPPS-3
 -Multiple inheritance is not supported in java as it can have ambiguity
 -The term object-based language may be used in a technical sense to describe any programming language that uses the idea of encapsulating what  and operations inside objects.
 -What has to be called is determined using what is type of object used.
+-Study dynamic dispatching and upcasting
