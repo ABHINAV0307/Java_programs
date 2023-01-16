@@ -49,6 +49,7 @@ OOPS-4
 -Only the subclass can access the members in protected class if it's outside the package not even class
 -Lang package is already imported
 -Every class in java is inheriting object class
+-Hash Code-unique representation of object by number
 -Above operation take average of constant time
 -Generics help us to have specific type of value in list/custom list(using object type)
 -WilCard defines what type of item you can provide
