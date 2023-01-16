@@ -43,6 +43,9 @@ OPPS-3
 -Default access modifier work in such a way that in same package it will act like public otherwise private
 
 OOPS-4
+-Private-->sensitive data
+-Subclasses can access protected data in similar packages
+-Protected-->sensitive but tempering of data is allowed
 -Above operation take average of constant time
 -Generics help us to have specific type of value in list/custom list(using object type)
 -WilCard defines what type of item you can provide
