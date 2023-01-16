@@ -37,6 +37,9 @@ OPPS-3
 -Protected data that are inherited become private data
 -Overriding dep ends on object whereas static doesn't depend on object therefore cant be overridden
 -Abstraction is solving design level issue,Encapsulation solve implementation level issue
+-Abstraction is process of gaining info, Whereas encapsulation is process of containing info
+-Abstraction is done using getter and setter
+-Data hiding is achieved via encapsulation
 -Above operation take average of constant time
 -Generics help us to have specific type of value in list/custom list(using object type)
 -WilCard defines what type of item you can provide
