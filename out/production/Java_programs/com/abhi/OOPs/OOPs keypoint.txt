@@ -46,6 +46,9 @@ OOPS-4
 -Private-->sensitive data
 -Subclasses can access protected data in similar packages
 -Protected-->sensitive but tempering of data is allowed
+-Only the subclass can access the members in protected class if it's outside the package not even class
+-Lang package is already imported
+-Every class in java is inheriting object class
 -Above operation take average of constant time
 -Generics help us to have specific type of value in list/custom list(using object type)
 -WilCard defines what type of item you can provide
