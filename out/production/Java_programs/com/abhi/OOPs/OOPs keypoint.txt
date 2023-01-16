@@ -40,6 +40,9 @@ OPPS-3
 -Abstraction is process of gaining info, Whereas encapsulation is process of containing info
 -Abstraction is done using getter and setter
 -Data hiding is achieved via encapsulation
+-Default access modifier work in such a way that in same package it will act like public otherwise private
+
+OOPS-4
 -Above operation take average of constant time
 -Generics help us to have specific type of value in list/custom list(using object type)
 -WilCard defines what type of item you can provide
