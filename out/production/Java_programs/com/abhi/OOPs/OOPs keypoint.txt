@@ -51,6 +51,7 @@ OOPS-4
 -Every class in java is inheriting object class
 -Hash Code-unique representation of object by number
 - "==" checks are they pointing to same object or not but .equals() checks the content of it
+-See "instance of" operator (this return true or false value )
 -Above operation take average of constant time
 -Generics help us to have specific type of value in list/custom list(using object type)
 -WilCard defines what type of item you can provide
