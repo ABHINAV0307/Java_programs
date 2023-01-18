@@ -57,6 +57,7 @@ OOPS-4
 OOPS-5
 -Functions that are in parent class and are needed to be overridden its good to be in abstract type
 -You cant create object of abstract class as its body is empty
+-In interfaces functions are static and variables are static/final
 -Above operation take average of constant time
 -Generics help us to have specific type of value in list/custom list(using object type)
 -WilCard defines what type of item you can provide
