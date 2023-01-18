@@ -54,6 +54,7 @@ OOPS-4
 -See "instance of" operator (this return true or false value )
 -getClass() is stored in heap
 
+OOPS-5
 -Above operation take average of constant time
 -Generics help us to have specific type of value in list/custom list(using object type)
 -WilCard defines what type of item you can provide
