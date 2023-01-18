@@ -62,6 +62,7 @@ OOPS-5
 -Class can implement more than one interfaces but can inherit only single super class
 -Multiple inheritance is implemented using interfaces
 -Two classes that are not related to each other can also implement interfaces
+-Works as same as dynamic method dispatch
 -Above operation take average of constant time
 -Generics help us to have specific type of value in list/custom list(using object type)
 -WilCard defines what type of item you can provide
