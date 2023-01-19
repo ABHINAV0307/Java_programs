@@ -64,6 +64,7 @@ OOPS-5
 -Two classes that are not related to each other can also implement interfaces
 -Works as same as dynamic method dispatch
 -Dont use interfaces in performance critical code as it is done at runtime
+-As all of the things are directly related to main class therefore any small change in interface will reflect to all
 -Above operation take average of constant time
 -Generics help us to have specific type of value in list/custom list(using object type)
 -WilCard defines what type of item you can provide
