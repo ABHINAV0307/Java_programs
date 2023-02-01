@@ -8,3 +8,9 @@ public class valid_parenthesis_20 {
             char[] s = str.toCharArray();
             for(int i=0;i<n;i=i++)
             {
+                if(s[i]=='('&& b==0 && c==0 && a>=0 && s[i+1]==')')
+                    a++;
+                else if(s[i]==')'&& b==0 && c==0 )
+                    a--;
+
+                else if(s[i]=='{'&& a==0 && c==0 && b>=0 && s[i+1]=='}')
