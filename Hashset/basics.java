@@ -10,3 +10,8 @@ public class basics {
         map.put("China",150);
         map.put("US",30);
         System.out.println(map);
+        for(Map.Entry<String,Integer> e:map.entrySet()){
+            System.out.print(e.getKey() + " ");
+            System.out.println(e.getValue());
+        }
+        if(map.containsKey("China")){
