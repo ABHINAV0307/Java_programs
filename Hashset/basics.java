@@ -19,3 +19,7 @@ public class basics {
         }
 
         map.remove("US");
+        System.out.print("Updated value of map");
+        System.out.println(map);
+    }
+}
