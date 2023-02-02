@@ -15,3 +15,7 @@ public class basics {
             System.out.println(e.getValue());
         }
         if(map.containsKey("China")){
+            System.out.println("China is present");
+        }
+
+        map.remove("US");
