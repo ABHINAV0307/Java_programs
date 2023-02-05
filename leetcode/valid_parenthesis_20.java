@@ -42,3 +42,11 @@ public class valid_parenthesis_20 {
             }
 
             if(a==0 && b==0 && c==0)
+                return true;
+            else
+                return false;
+        }
+
+    }
+
+}
