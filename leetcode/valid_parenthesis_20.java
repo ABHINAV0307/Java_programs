@@ -18,3 +18,8 @@ public class valid_parenthesis_20 {
                 else if(s[i]=='}'&& a==0 && c==0)
                     b--;
 
+                else if(s[i]=='['&& a==0 &&b==0 &&c>=0 && s[i+1]==']')
+                    c++;
+                else if(s[i]==']' && a==0 &&b==0)
+                    c--;
+
