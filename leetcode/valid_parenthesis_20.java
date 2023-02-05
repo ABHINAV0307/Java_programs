@@ -37,3 +37,8 @@ public class valid_parenthesis_20 {
         flag=1;
 
          else
+         flag=0;
+        } */
+            }
+
+            if(a==0 && b==0 && c==0)
