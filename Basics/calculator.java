@@ -1,14 +1,3 @@
-package com.abhi;
-
-import java.sql.SQLOutput;
-import java.util.Scanner;
-
-public class calculator {
-    public static void main(String[] args) {
-        Scanner sc=new Scanner(System.in);
-        System.out.println("Enter operater");
-        char ch=sc.next().trim().charAt(0);
-
             System.out.println("Enter first");
             int a = sc.nextInt();
             System.out.println("Enter second number");
