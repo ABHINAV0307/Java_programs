@@ -63,6 +63,7 @@ OOPS-5
 -Multiple inheritance is implemented using interfaces
 -Two classes that are not related to each other can also implement interfaces
 -Works as same as dynamic method dispatch
+-Don't use interfaces in performance critical code as it is done at runtime
 Thus it is good to create separate classes for separate functionalities
 -Nested interface can be either public private or protected whereas top level interface need to be public or default one
 
