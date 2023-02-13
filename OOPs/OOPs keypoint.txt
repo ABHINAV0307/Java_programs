@@ -64,6 +64,7 @@ OOPS-5
 -Two classes that are not related to each other can also implement interfaces
 -Works as same as dynamic method dispatch
 -Don't use interfaces in performance critical code as it is done at runtime
+-As all the things are directly related to main class therefore any small change in interface will reflect to all
 Thus it is good to create separate classes for separate functionalities
 -Nested interface can be either public private or protected whereas top level interface need to be public or default one
 
