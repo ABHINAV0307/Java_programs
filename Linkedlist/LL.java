@@ -15,4 +15,10 @@ private Node head;
         node.next = head;
         head = node;
 
+        if (tail == null) {
+            tail = head;
+        }
+        size += 1;
+    }
+    public void insertLast(int val) {
 }
