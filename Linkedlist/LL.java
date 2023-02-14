@@ -21,4 +21,9 @@ private Node head;
         size += 1;
     }
     public void insertLast(int val) {
+        if (tail == null) {
+            insertFirst(val);
+            return;
+        }
+        Node node = new Node(val);
 }
