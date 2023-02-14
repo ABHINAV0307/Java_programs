@@ -9,4 +9,10 @@ private Node head;
         this.size=0;
     }
 
+
+    public void insertFirst(int val){
+        Node node = new Node(val);
+        node.next = head;
+        head = node;
+
 }
