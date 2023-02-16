@@ -31,4 +31,8 @@ private Node head;
         size++;
     }
     private class Node {
+        private int value;
+        private Node next;
+
+        public Node(int value) {
 }
