@@ -26,4 +26,9 @@ private Node head;
             return;
         }
         Node node = new Node(val);
+        tail.next = node;
+        tail = node;
+        size++;
+    }
+    private class Node {
 }
