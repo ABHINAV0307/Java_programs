@@ -3,7 +3,7 @@ package com.abhi.binary_search;
 public class bin_algo {
     public static void main(String[] args) {
 int []arr={1,2,3,5,6,7,22,35,90};
-        System.out.println(bin(arr,11));
+        System.out.println(bin(arr,2));
     }
     static int bin(int []arr,int target){
         int s=0;
