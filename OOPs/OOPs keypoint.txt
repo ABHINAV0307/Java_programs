@@ -78,3 +78,4 @@ OOPS-6
 -There is difference between throw and throws as throws tell that this may throw exception
 -finally used can only be used once
 -the part "implement Cloneable" tells JVM that we are going to use clone further for object cloning
+-Learn about shallow and deep copy of object
