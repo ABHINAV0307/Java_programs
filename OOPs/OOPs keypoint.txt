@@ -79,3 +79,6 @@ OOPS-6
 -finally used can only be used once
 -the part "implement Cloneable" tells JVM that we are going to use clone further for object cloning
 -Learn about shallow and deep copy of object
+
+OOPS-7
+-None
