@@ -2,6 +2,8 @@ package com.abhi.placement_preparation_class;
 
 import java.util.Scanner;
 
+//every final should be static
+//Datatype should follow data variable name
 public class code1
 {
     public static void main(String[] args) {
