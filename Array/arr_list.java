@@ -15,10 +15,9 @@ public class arr_list {
         list.sort(Comparator.naturalOrder());
         Collections.sort(list);
 
+        int k=2;
+
         System.out.println(list);
-        list.set(0,-5);
-        System.out.println(list);
-        list.remove(1);
         System.out.println(list);
 
 
