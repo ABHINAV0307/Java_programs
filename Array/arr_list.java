@@ -18,7 +18,13 @@ public class arr_list {
         int k=2;
 
         System.out.println(list);
-        System.out.println(list);
+        System.out.println(list.get(k-1));
+        System.out.println(list.get(list.size()-k));
+
+//        list.set(0,-5);
+//        System.out.println(list);
+//        list.remove(1);
+//        System.out.println(list);
 
 
     }
