@@ -7,3 +7,10 @@ public class Magic_number {
         int base=5;
         while(a>0){
             int last=a&1;
+            a=a>>1;
+            sum+=last*base;
+            base=base*5;
+        }
+        System.out.println(sum);
+    }
+}
