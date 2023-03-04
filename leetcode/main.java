@@ -23,3 +23,15 @@ public class main {
         for(k=0;k<c.length();k++){
             count-=(int)ch3[k];
         }
+        System.out.println(count);
+        if(count==0)
+            System.out.println("TRue");
+        else
+            System.out.println("FAlse");
+    }
+
+        }
+
+//        System.out.println(count);
+
+
