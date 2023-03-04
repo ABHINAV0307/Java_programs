@@ -6,3 +6,12 @@ public class LastString {
 
         int ans = 0;
         String[] s = str.split(" ");
+
+
+//for(String s :strArray){
+//    System.out.println(s);
+//}
+       // System.out.println(s[s.length() - 1].length());
+
+    }
+}
