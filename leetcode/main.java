@@ -7,3 +7,10 @@ public class main {
         String c="acbd";
 
         char[] ch1 = a.toCharArray();
+        char[] ch2 = b.toCharArray();
+        char[] ch3 = c.toCharArray();
+        int count =0;
+        int i,j,k;
+        for(i=0;i<a.length();i++){
+            count+=(int)ch1[i];
+        }
