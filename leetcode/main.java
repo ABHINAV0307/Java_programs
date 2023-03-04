@@ -14,3 +14,12 @@ public class main {
         for(i=0;i<a.length();i++){
             count+=(int)ch1[i];
         }
+        System.out.println(count);
+        for(j=0;j<b.length();j++){
+            count+=(int)ch2[j];
+        }
+        System.out.println(count);
+
+        for(k=0;k<c.length();k++){
+            count-=(int)ch3[k];
+        }
