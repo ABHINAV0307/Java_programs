@@ -8,6 +8,15 @@ public class LastString {
         String[] s = str.split(" ");
 
 
+
+        for (int i = 0; i < s.length; i++) {
+            ans = s[i].length();
+            //System.out.print(ans +"  ");
+        }
+       // System.out.println(ans);
+
+
+
 //for(String s :strArray){
 //    System.out.println(s);
 //}
