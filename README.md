@@ -1,2 +1,2 @@
-# Java_programs
-This include most of java programs from basics to advance.
+# Java_program
+This include most of the java programs from basic to advance.
