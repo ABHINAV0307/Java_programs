@@ -7,3 +7,15 @@ public class SetMatrixZero {
         char[] ch = s.toCharArray();
         int a = 0;
         int k = 0;
+                k++;
+            }
+            a++;
+            b--;
+        }
+        for (int i = 0; i < str.length(); i++) {
+            if((ch[a] <'A' || ch[a] > 'Z'))
+            System.out.print(ch[i]);
+        }
+    }
+}
+
