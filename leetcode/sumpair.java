@@ -14,3 +14,10 @@ public class sumpair {
         arr.add(2);
         arr.add(6);
         arr.add(1);
+        }
+        System.out.println(count);
+    }
+
+}
+
+
