@@ -5,11 +5,10 @@ class ll{
     Node head;
     private int size;
 
+    class Node {
+        String data;
+        Node next;
 
-
-    public void insertFirst(int val){
-        Node node = new Node(val);
-        node.next = head;
         head = node;
 
         if (tail == null) {
