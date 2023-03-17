@@ -13,11 +13,8 @@ class ll{
             this.data = data;
             this.next = null;
         }
-        size += 1;
     }
-    public void insertLast(int val) {
-        if (tail == null) {
-            insertFirst(val);
+    //addition of element in list
             return;
         }
         Node node = new Node(val);
