@@ -1,10 +1,10 @@
 package com.abhi.Linkedlist;
 
+//implementation of linked list
+class ll{
+    Node head;
     private int size;
 
-    public LL(){
-        this.size=0;
-    }
 
 
     public void insertFirst(int val){
