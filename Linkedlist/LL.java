@@ -9,10 +9,9 @@ class ll{
         String data;
         Node next;
 
-        head = node;
-
-        if (tail == null) {
-            tail = head;
+        Node(String data) {
+            this.data = data;
+            this.next = null;
         }
         size += 1;
     }
