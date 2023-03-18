@@ -24,12 +24,6 @@ class ll{
         newnode.next=head;
         head=newnode;
     }
-    private class Node {
-        private int value;
-        private Node next;
-
-        public Node(int value) {
-            this.value = value;
         }
 
         public Node(int value, Node next) {
