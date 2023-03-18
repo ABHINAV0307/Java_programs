@@ -15,6 +15,10 @@ class ll{
         }
     }
     //addition of element in list
+    public void addfirst(String data){
+        Node newnode= new Node(data);
+        if(head==null){
+            head=newnode;
             return;
         }
         Node node = new Node(val);
