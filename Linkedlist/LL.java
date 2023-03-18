@@ -21,10 +21,8 @@ class ll{
             head=newnode;
             return;
         }
-        Node node = new Node(val);
-        tail.next = node;
-        tail = node;
-        size++;
+        newnode.next=head;
+        head=newnode;
     }
     private class Node {
         private int value;
