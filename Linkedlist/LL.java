@@ -30,10 +30,7 @@ class ll{
             head=newnode;
             return;
         }
-
-        public Node(int value, Node next) {
-            this.value = value;
-            this.next = next;
+        Node currnode=head;
         }
     }
 }
