@@ -24,6 +24,11 @@ class ll{
         newnode.next=head;
         head=newnode;
     }
+    public void addlast(String data){
+        Node newnode= new Node(data);
+        if(head==null){
+            head=newnode;
+            return;
         }
 
         public Node(int value, Node next) {
