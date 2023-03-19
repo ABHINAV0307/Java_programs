@@ -31,6 +31,12 @@ class ll{
             return;
         }
         Node currnode=head;
+        while(currnode.next!=null){
+            currnode=currnode.next;
         }
+        currnode.next=newnode;
+    }
+    public void printlist(){
+        if(head==null){
     }
 }
