@@ -47,5 +47,9 @@ class ll{
             currnode=currnode.next;
         }
     }
+
+    public static void main(String[] args) {
+        ll list=new ll();
+        list.addlast("I");
     }
 }
