@@ -38,5 +38,10 @@ class ll{
     }
     public void printlist(){
         if(head==null){
+            System.out.println("List is empty");
+            return;
+        }
+        Node currnode=head;
+        while(currnode!=null){
     }
 }
