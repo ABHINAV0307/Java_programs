@@ -51,5 +51,9 @@ class ll{
     public static void main(String[] args) {
         ll list=new ll();
         list.addlast("I");
+        list.addlast("am");
+        list.addlast("abhi");
+        list.printlist();
+        //System.out.println(list);
     }
 }
