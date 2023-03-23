@@ -8,6 +8,9 @@ public class Shuffle_the_Array {
         int []a=new int [5];
        int jk=0;
         for(int i=0;i<arr.length-1;i++){
+            if((arr[i]+1)!=(arr[i+1])){
+                System.out.println(arr[i]+1);
+            }
         }
     }
 }
