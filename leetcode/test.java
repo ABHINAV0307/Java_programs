@@ -4,3 +4,10 @@ public class test {
     public static void main(String[] args) {
         int num=38;
         int val=num;
+
+        val=sum;
+
+        }
+        System.out.println(val);
+    }
+}
