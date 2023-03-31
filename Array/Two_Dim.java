@@ -5,6 +5,9 @@ import java.util.Scanner;
 
 public class Two_Dim {
     public static void main(String[] args) {
+//       finding row and column of matrix formula
+//        int m=mat.length;
+//        int n=mat[0].length;
 
         int [][] a2 ={
                 {1,2,3},
