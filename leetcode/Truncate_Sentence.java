@@ -13,3 +13,4 @@ public class Truncate_Sentence {
         for(int i = 0; i <4; i++) {
             sb.append(str[i]+" ");
         }
+        String str2 = sb.toString();
