@@ -12,3 +12,4 @@ public class Truncate_Sentence {
         StringBuffer sb = new StringBuffer();
         for(int i = 0; i <4; i++) {
             sb.append(str[i]+" ");
+        }
