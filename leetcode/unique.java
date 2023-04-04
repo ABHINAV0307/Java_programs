@@ -5,3 +5,6 @@ public class unique {
         int []arr=new int [26];
         String s="aabb";
         char[]ch=s.toCharArray();
+        //System.out.println(ch[0]-'a');
+        int val=0;
+        for(int i=0;i<s.length();i++){
