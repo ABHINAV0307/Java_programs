@@ -10,3 +10,5 @@ public class unique {
         for(int i=0;i<s.length();i++){
 val=(int)ch[i]-'a';
             arr[val]+=1;
+        }
+        for(int i=0;i<26;i++){
