@@ -16,3 +16,5 @@ val=(int)ch[i]-'a';
         }
         System.out.println("");
         for(int i=0;i<s.length();i++){
+            val=(int)ch[i]-'a';
+            if(arr[val]==1){
