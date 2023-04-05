@@ -14,3 +14,5 @@ val=(int)ch[i]-'a';
         for(int i=0;i<26;i++){
             System.out.print(arr[i]+" ");
         }
+        System.out.println("");
+        for(int i=0;i<s.length();i++){
