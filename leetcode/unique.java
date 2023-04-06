@@ -20,3 +20,5 @@ val=(int)ch[i]-'a';
             if(arr[val]==1){
                 System.out.println(i);
                 break;
+            }
+        }
