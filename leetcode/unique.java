@@ -22,3 +22,5 @@ val=(int)ch[i]-'a';
                 break;
             }
         }
+    }
+}
