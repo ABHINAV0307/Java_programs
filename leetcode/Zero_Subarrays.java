@@ -7,3 +7,5 @@ public class Zero_Subarrays {
         for (int i : nums) {
             if (i != 0) no = 0;
             else ans += ++no;
+            System.out.println(ans);
+        }
