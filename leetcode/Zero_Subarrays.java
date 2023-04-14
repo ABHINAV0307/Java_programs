@@ -9,3 +9,5 @@ public class Zero_Subarrays {
             else ans += ++no;
             System.out.println(ans);
         }
+    }
+}
