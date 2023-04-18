@@ -8,3 +8,5 @@ public class calc {
         String str=sc.next();
         int flag=0;
         String[] substr = str.split(",");
+        int n=substr.length;
+        int [] arr = new int [substr.length];
