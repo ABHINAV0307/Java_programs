@@ -13,3 +13,5 @@ public class calc {
         for(int i=0; i<substr.length; i++) {
             arr[i] = Integer.parseInt(substr[i]);
         }
+        for(int i=0;i<n;i++){
+            if(arr[i]==5){
