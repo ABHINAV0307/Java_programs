@@ -10,3 +10,6 @@ public class calc {
         String[] substr = str.split(",");
         int n=substr.length;
         int [] arr = new int [substr.length];
+        for(int i=0; i<substr.length; i++) {
+            arr[i] = Integer.parseInt(substr[i]);
+        }
