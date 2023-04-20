@@ -21,3 +21,5 @@ public class calc {
                 System.out.println("wrong input");
                 break;
             }
+        }
+        int val=0;
