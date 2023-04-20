@@ -17,3 +17,5 @@ public class calc {
             if(arr[i]==5){
                 flag=1;
             }
+            if(arr[i]==8&&flag!=1){
+                System.out.println("wrong input");
