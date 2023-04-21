@@ -27,3 +27,5 @@ public class calc {
         for(int i=0;i<n;i++){
             if(arr[i]>4&&arr[i]<9){
                 val=(val+arr[i])*flag;
+            f*=10;
+            }
