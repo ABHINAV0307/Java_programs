@@ -31,3 +31,5 @@ public class calc {
             }
         }
         System.out.println(val);
+    }
+}
