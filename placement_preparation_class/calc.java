@@ -29,3 +29,5 @@ public class calc {
                 val=(val+arr[i])*flag;
             f*=10;
             }
+        }
+        System.out.println(val);
