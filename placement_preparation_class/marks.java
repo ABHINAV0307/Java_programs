@@ -7,4 +7,6 @@ public class marks {
         int val=1;
         int flag=0;
         int a=0;
+        for(int i=0;i<arr.length;i++){
+            a=(a*10)+arr[i];
 }
