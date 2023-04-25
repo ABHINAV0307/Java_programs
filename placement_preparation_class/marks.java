@@ -9,4 +9,6 @@ public class marks {
         int a=0;
         for(int i=0;i<arr.length;i++){
             a=(a*10)+arr[i];
+           // val=val*10;
+        }
 }
