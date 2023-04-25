@@ -11,4 +11,6 @@ public class marks {
             a=(a*10)+arr[i];
            // val=val*10;
         }
+        a=a+1;
+        int n=a;
 }
