@@ -1,6 +1,3 @@
-package com.abhi.Linkedlist;
-
-public class ListNode {
           int val;
           ListNode next;
           ListNode() {}
