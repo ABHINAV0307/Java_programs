@@ -1,5 +1,3 @@
-            ListNode temp=head;
-            while(temp!=null){
                 if(head.val==val){
                     head=head.next;
                 }
