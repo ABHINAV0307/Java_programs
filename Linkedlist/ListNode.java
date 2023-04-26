@@ -1,5 +1,3 @@
-     class Solution {
-        public ListNode removeElements(ListNode head, int val) {
             ListNode temp=head;
             while(temp!=null){
                 if(head.val==val){
