@@ -1,6 +1,3 @@
-                }
-
-                else if(temp.next!=null){
                     if(temp.next.next==null&&temp.next.val==val){
                         temp.next=null;
                     }
