@@ -1,5 +1,3 @@
-                if(head.val==val){
-                    head=head.next;
                 }
 
                 else if(temp.next!=null){
