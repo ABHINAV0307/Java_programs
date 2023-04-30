@@ -1,5 +1,3 @@
-                            temp.val=temp.next.val;
-                            temp.next=temp.next.next;
                         }
                     }
                 }
