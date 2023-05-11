@@ -1,7 +1,5 @@
 package com.abhi.Linkedlist;
 
-//implementation of linked list
-class ll{
     Node head;
     private int size;
 
