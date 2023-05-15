@@ -1,7 +1,7 @@
 package com.abhi.Linkedlist;
 
+public class ll {
     Node head;
-    private int size;
 
     class Node {
         String data;
