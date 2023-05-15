@@ -2,6 +2,8 @@ package com.abhi.Linkedlist;
 
 public class ll {
     Node head;
+    int size;
+    class Node{
         Node next;
 
         Node(String data) {
