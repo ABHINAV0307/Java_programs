@@ -6,7 +6,7 @@ public class ll {
     class Node{
         int data;
         Node next;
-            this.next = null;
+        Node(int data){
         }
     }
     //addition of element in list
