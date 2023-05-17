@@ -11,11 +11,11 @@ public class ll {
             this.next=null;
         }
     }
+    public void addfirst(int data){
         Node newnode= new Node(data);
         if(head==null){
             head=newnode;
             return;
-        }
         newnode.next=head;
         head=newnode;
     }
