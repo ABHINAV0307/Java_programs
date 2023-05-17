@@ -16,8 +16,6 @@ public class ll {
         if(head==null){
             head=newnode;
             return;
-        newnode.next=head;
-        head=newnode;
     }
     public void addlast(String data){
         Node newnode= new Node(data);
