@@ -11,8 +11,6 @@ public class ll {
             this.next=null;
         }
     }
-    //addition of element in list
-    public void addfirst(String data){
         Node newnode= new Node(data);
         if(head==null){
             head=newnode;
