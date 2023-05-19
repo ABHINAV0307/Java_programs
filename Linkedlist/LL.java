@@ -16,6 +16,8 @@ public class ll {
         if(head==null){
             head=newnode;
             return;
+        }else{
+            newnode.next=head;
             head=newnode;
             return;
         }
