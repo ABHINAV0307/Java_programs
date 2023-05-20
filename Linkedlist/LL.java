@@ -20,8 +20,6 @@ public class ll {
             newnode.next=head;
             head=newnode;
         }
-        currnode.next=newnode;
-    }
     public void printlist(){
         if(head==null){
             System.out.println("List is empty");
