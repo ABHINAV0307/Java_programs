@@ -19,9 +19,6 @@ public class ll {
         }else{
             newnode.next=head;
             head=newnode;
-        Node currnode=head;
-        while(currnode.next!=null){
-            currnode=currnode.next;
         }
         currnode.next=newnode;
     }
