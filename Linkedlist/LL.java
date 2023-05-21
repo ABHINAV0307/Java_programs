@@ -20,8 +20,6 @@ public class ll {
             newnode.next=head;
             head=newnode;
         }
-            return;
-        }
         Node currnode=head;
         while(currnode!=null){
             System.out.print(currnode.data+"->");
