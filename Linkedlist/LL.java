@@ -23,9 +23,6 @@ public class ll {
     }
     public void addlast(){
 
-        list.addlast("am");
-        list.addlast("abhi");
-        list.printlist();
         //System.out.println(list);
     }
 }
