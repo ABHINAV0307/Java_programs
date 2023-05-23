@@ -20,9 +20,8 @@ public class ll {
             newnode.next=head;
             head=newnode;
         }
-            currnode=currnode.next;
-        }
     }
+    public void addlast(){
 
     public static void main(String[] args) {
         ll list=new ll();
