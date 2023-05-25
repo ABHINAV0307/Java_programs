@@ -23,6 +23,5 @@ public class ll {
     }
     public void addlast(){
 
-        //System.out.println(list);
     }
 }
