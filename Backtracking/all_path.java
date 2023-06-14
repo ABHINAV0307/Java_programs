@@ -22,6 +22,12 @@ public class all_path {
         if(r<maze.length-1 ){
             path(p+"D",maze,r+1,c);
         }
+        //note there is r+1 and c+1 as we are moving from 0 to length
+        if(c<maze[0].length-1){
+            path(p+"R",maze,r,c+1);
+        }
+        if(r>0){
+            path(p+"U",maze,r-1,c);
         }
         if(c>0){
             path(p+"L",maze,r,c-1);
