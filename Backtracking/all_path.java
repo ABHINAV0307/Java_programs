@@ -15,6 +15,13 @@ public class all_path {
             System.out.println(p);
             return;
         }
+        if(!maze[r][c]){
+            return;
+        }
+        maze[r][c]=false;
+        if(r<maze.length-1 ){
+            path(p+"D",maze,r+1,c);
+        }
         }
         if(c>0){
             path(p+"L",maze,r,c-1);
