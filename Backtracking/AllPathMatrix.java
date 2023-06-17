@@ -20,3 +20,8 @@ public class AllPathMatrix {
             }
             System.out.println(p);
             System.out.println();
+            return;
+        }
+        if(!maze[r][c]){
+            return;
+        }
