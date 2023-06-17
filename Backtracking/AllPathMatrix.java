@@ -25,3 +25,7 @@ public class AllPathMatrix {
         if(!maze[r][c]){
             return;
         }
+
+        maze[r][c]=false;
+        path[r][c]=step;
+        if(r<maze.length-1 ){
