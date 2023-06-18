@@ -40,3 +40,8 @@ public class AllPathMatrix {
         }
         if(c>0){
             pathprint(p+"L",maze,r,c-1,path,step+1);
+        }
+        maze[r][c]=true;
+        path[r][c]=0;
+    }
+}
