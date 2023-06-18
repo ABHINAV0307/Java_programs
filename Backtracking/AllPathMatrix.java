@@ -34,3 +34,9 @@ public class AllPathMatrix {
         //note there is r+1 and c+1 as we are moving from 0 to length
         if(c<maze[0].length-1){
             pathprint(p+"R",maze,r,c+1,path,step+1);
+        }
+        if(r>0){
+            pathprint(p+"U",maze,r-1,c,path,step+1);
+        }
+        if(c>0){
+            pathprint(p+"L",maze,r,c-1,path,step+1);
