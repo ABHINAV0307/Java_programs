@@ -3,6 +3,10 @@ package com.abhi.Backtracking;
 import java.util.ArrayList;
 
 public class diagonal {
+    public static void main(String[] args) {
+        System.out.println(pathlist("",3,3));
+
+    }
     static ArrayList<String> pathlist(String p, int r, int c){
         if(r==1 && c==1){
             ArrayList<String> list=new ArrayList<>();
