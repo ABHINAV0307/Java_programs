@@ -13,6 +13,12 @@ public class maze_path {
             System.out.print(p+"  ");
             return;
         }
+        if(r>1 ){
+            path(p+"D",r-1,c);
+        }
+        if(c>1 ){
+            path(p+"L",r,c-1);
+        }
         }
         if(c>1 && r!=1 && c!=1){
             list.addAll(pathlist(p+"L",r,c-1));
