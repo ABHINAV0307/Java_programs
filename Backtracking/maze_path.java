@@ -26,6 +26,12 @@ public class maze_path {
             list.add(p);
             return list;
         }
+
+        ArrayList<String> list=new ArrayList<>();
+
+        if(r>1 && r!=1 && c!=1){
+           list.addAll(pathlist(p+"D",r-1,c));
+        }
         if(c>1 && r!=1 && c!=1){
             list.addAll(pathlist(p+"L",r,c-1));
         }
