@@ -33,3 +33,9 @@ public class dll {
             System.out.print(last.val+"->");
             last=last.prev;
         }System.out.print("START");
+
+    }
+    public void insertlast(int val){
+        Node node=new Node(val);
+        Node last=head;
+        if(head == null){
