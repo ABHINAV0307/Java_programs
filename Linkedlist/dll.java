@@ -21,3 +21,9 @@ public class dll {
         System.out.println("END");
     }
     public void revdisp(){
+        Node node =head;
+        Node last=null;
+        while(node!=null){
+            last=node;
+            node=node.next;
+        }
