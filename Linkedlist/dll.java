@@ -39,3 +39,11 @@ public class dll {
         Node node=new Node(val);
         Node last=head;
         if(head == null){
+            node.prev=null;
+            head=node;
+            node.next=null;
+            return;
+        }
+        while(last.next!=null){
+            last=last.next;
+        }
