@@ -5,3 +5,7 @@ public class dll {
     Node head;
     public void insertfirst(int val){
         Node node=new Node(val);
+        node.next=head;
+        node.prev=null;
+        if(head!=null){
+            head.prev=node;
