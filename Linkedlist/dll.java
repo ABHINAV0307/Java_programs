@@ -14,3 +14,10 @@ public class dll {
     }
     public void display(){
         Node node=head;
+        while(node!=null){
+            System.out.print(node.val+"->");
+            node=node.next;
+        }
+        System.out.println("END");
+    }
+    public void revdisp(){
