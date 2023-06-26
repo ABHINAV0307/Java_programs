@@ -27,3 +27,9 @@ public class dll {
             last=node;
             node=node.next;
         }
+        System.out.println("END");
+
+        while(last!=null){
+            System.out.print(last.val+"->");
+            last=last.prev;
+        }System.out.print("START");
