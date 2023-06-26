@@ -9,3 +9,8 @@ public class dll {
         node.prev=null;
         if(head!=null){
             head.prev=node;
+        }
+        head=node;
+    }
+    public void display(){
+        Node node=head;
