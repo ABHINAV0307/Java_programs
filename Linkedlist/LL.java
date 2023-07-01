@@ -1,12 +1,6 @@
 package com.abhi.Linkedlist;
 
 public class ll {
-    Node head;
-    int size;
-    class Node{
-        int data;
-        Node next;
-        Node(int data){
             this.data=data;
             this.next=null;
         }
