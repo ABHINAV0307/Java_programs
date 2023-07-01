@@ -47,3 +47,7 @@ public class dll {
         while(last.next!=null){
             last=last.next;
         }
+       // last.next=node;
+        node.prev=last;
+        last.next=node;
+        node.next=null;
