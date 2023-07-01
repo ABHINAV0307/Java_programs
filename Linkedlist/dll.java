@@ -51,3 +51,9 @@ public class dll {
         node.prev=last;
         last.next=node;
         node.next=null;
+    }
+    private class Node{
+        int val;
+        Node next;
+        Node prev;
+
