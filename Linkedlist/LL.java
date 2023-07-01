@@ -1,8 +1,10 @@
 package com.abhi.Linkedlist;
 
 public class ll {
-            this.data=data;
-            this.next=null;
+    private Node head;
+    private Node tail;
+    private int size;
+
         }
     }
     public void addfirst(int data){
