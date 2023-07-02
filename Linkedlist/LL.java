@@ -5,6 +5,11 @@ public class ll {
     private Node tail;
     private int size;
 
+    public ll(){
+        this.size=0;
+    }
+
+    public void addfirst(int val){
         }
     }
     public void addfirst(int data){
