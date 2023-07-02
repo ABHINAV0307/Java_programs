@@ -17,6 +17,12 @@ public class ll {
         if(tail == null){
             tail=head;
         }
+        size+=1;
+    }
+
+    public void insertlast(int val){
+        if(tail==null){
+            addfirst(val);
         }
     }
     public void addfirst(int data){
