@@ -10,6 +10,13 @@ public class ll {
     }
 
     public void addfirst(int val){
+        Node newnode= new Node(val);
+        newnode.next=head;
+        head=newnode;
+
+        if(tail == null){
+            tail=head;
+        }
         }
     }
     public void addfirst(int data){
