@@ -23,7 +23,12 @@ public class ll {
     public void insertlast(int val){
         if(tail==null){
             addfirst(val);
+            return;
         }
+        Node node =new Node(val);
+        tail.next=node;
+        tail=node;
+        size++;
     }
     public void addfirst(int data){
         Node newnode= new Node(data);
