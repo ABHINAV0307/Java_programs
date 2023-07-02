@@ -30,10 +30,8 @@ public class ll {
         tail=node;
         size++;
     }
-    public void addfirst(int data){
-        Node newnode= new Node(data);
-        if(head==null){
-            head=newnode;
+
+    public void insert(int val, int index) {
             return;
         }else{
             newnode.next=head;
