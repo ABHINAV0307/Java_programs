@@ -43,6 +43,13 @@ public class ll {
         Node temp = head;
         for (int i = 1; i < index; i++) {
             temp = temp.next;
+        }
+        Node node = new Node(val, temp.next);
+        temp.next = node;
+        size++;
+    }
+
+
     }
     public void addlast(){
 
