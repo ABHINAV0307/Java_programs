@@ -39,10 +39,10 @@ public class ll {
         if (index == size) {
             insertlast(val);
             return;
-        }else{
-            newnode.next=head;
-            head=newnode;
         }
+        Node temp = head;
+        for (int i = 1; i < index; i++) {
+            temp = temp.next;
     }
     public void addlast(){
 
