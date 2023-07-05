@@ -50,8 +50,12 @@ public class ll {
     }
 
 
+    public void insertRec(int val, int index) {
+        head = insertRec(val, index, head);
     }
-    public void addlast(){
+    private Node insertRec(int val, int index, Node node) {
+        if (index == 0) {
+            Node temp = new Node(val, node);
 
     }
 }
