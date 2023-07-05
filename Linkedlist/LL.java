@@ -63,4 +63,9 @@ public class ll {
         node.next = insertRec(val, index-1, node.next);
          return node;
     }
+
+
+
+    public void display(){
+        Node temp=head;
 }
