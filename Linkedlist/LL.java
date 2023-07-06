@@ -73,4 +73,10 @@ public class ll {
             temp=temp.next;
         }
         System.out.println("END");
+    }
+
+
+
+//    public void insert(int val,int index){
+//        if(index==0){
 }
