@@ -79,4 +79,9 @@ public class ll {
 
 //    public void insert(int val,int index){
 //        if(index==0){
+//            addfirst(val);
+//            return;
+//        }
+//        if(index==size){
+//            insertlast(val);
 }
