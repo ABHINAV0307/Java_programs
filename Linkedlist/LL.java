@@ -96,4 +96,10 @@ public class ll {
 //    }
 
     public int delfirst() {
+        int val=head.value;
+        if (head != null) {
+            head = head.next;
+        } else
+            tail = null;
+        size--;
 }
