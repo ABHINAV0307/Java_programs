@@ -102,4 +102,10 @@ public class ll {
         } else
             tail = null;
         size--;
+        return val;
+    }
+    public int deletelast(){
+        if(size <=1){
+            return delfirst();
+        }
 }
