@@ -113,4 +113,10 @@ public class ll {
         tail=secondlast;
         tail.next=null;
         return val;
+   }
+    public int delete(int index){
+        if(index==0){
+        return delfirst();
+        }
+        if(index==size-1){
 }
