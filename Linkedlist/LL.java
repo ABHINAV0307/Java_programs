@@ -119,4 +119,11 @@ public class ll {
         return delfirst();
         }
         if(index==size-1){
+            return deletelast();
+        }
+        Node prev= get(index-1);
+        int val = prev.next.value;
+        prev.next = prev.next.next;
+        size--;
+        return val;
 }
