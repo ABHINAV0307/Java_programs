@@ -108,4 +108,9 @@ public class ll {
         if(size <=1){
             return delfirst();
         }
+        Node secondlast=get(size-2);
+        int val= tail.value;
+        tail=secondlast;
+        tail.next=null;
+        return val;
 }
