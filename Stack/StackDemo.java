@@ -5,4 +5,4 @@ import java.util.*;
         public class StackDemo {
             public static void main(String args[])
             {
-                // Creating an empty Stac
+                // Creating an empty Stack
