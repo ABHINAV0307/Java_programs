@@ -135,4 +135,13 @@ public class ll {
     for(int i =0;i < index ; i++){
         node=node.next;
     }
+    return node;
+    }
+
+    private class Node{
+        private int value;
+        private Node next;
+        public Node(int value){
+            this.value=value;
+        }
 }
