@@ -126,4 +126,13 @@ public class ll {
         prev.next = prev.next.next;
         size--;
         return val;
+
+    }
+
+
+    public Node get(int index){
+        Node node=head;
+    for(int i =0;i < index ; i++){
+        node=node.next;
+    }
 }
