@@ -150,4 +150,9 @@ public class ll {
         }
     }
     public void duplicate(){
+        Node node=head;
+        while(node.next != null) {
+            if (node.value == node.next.value) {
+                node.next = node.next.next;
+            } else {
 }
