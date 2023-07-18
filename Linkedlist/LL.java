@@ -168,4 +168,10 @@ public class ll {
         ll ans=new ll();
         while(f!=null && s!=null){
             if(f.value<s.value){
+                ans.insertlast(f.value);
+                f=f.next;
+            }else{
+                ans.insertlast(s.value);
+                s=s.next;
+            }
 }
