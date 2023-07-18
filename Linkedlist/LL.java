@@ -155,4 +155,11 @@ public class ll {
             if (node.value == node.next.value) {
                 node.next = node.next.next;
             } else {
+                node = node.next;
+            }
+        }
+        tail=node;
+        tail.next=null;
+    }
+    public static ll merge(ll first,ll second){
 }
