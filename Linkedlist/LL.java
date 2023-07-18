@@ -162,4 +162,10 @@ public class ll {
         tail.next=null;
     }
     public static ll merge(ll first,ll second){
+        Node f=first.head;
+        Node s=second.head;
+
+        ll ans=new ll();
+        while(f!=null && s!=null){
+            if(f.value<s.value){
 }
