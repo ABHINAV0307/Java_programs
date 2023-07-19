@@ -182,4 +182,8 @@ public class ll {
         while(s!=null){
             ans.insertlast(s.value);
             s=s.next;
+        }
+        return ans;
+    }
+
 }
