@@ -174,4 +174,8 @@ public class ll {
                 ans.insertlast(s.value);
                 s=s.next;
             }
+        }
+        while(f!=null){
+            ans.insertlast(f.value);
+            f=f.next;
 }
