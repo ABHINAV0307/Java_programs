@@ -178,4 +178,8 @@ public class ll {
         while(f!=null){
             ans.insertlast(f.value);
             f=f.next;
+        }
+        while(s!=null){
+            ans.insertlast(s.value);
+            s=s.next;
 }
