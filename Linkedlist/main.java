@@ -11,3 +11,8 @@ public class main {
             list.insertRec(88, 1);
             list.display();
 
+
+            // FOR DOUBLY LINKED LIST
+//    dll list=new dll();
+//    list.insertfirst(3);
+//    list.insertfirst(4);
