@@ -6,3 +6,8 @@ public class main {
             list.addfirst(3);
             list.addfirst(2);
             list.addfirst(8);
+            list.addfirst(17);
+            list.delete(1);
+            list.insertRec(88, 1);
+            list.display();
+
