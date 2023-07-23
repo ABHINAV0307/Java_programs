@@ -20,3 +20,7 @@ public class main {
 //    list.insertlast(3);
 //    list.display();
 
+//    list.revdisp();
+        }
+    }
+
