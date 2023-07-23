@@ -19,4 +19,11 @@ public class marks {
         System.out.println(a);
         if(arr[0]==9){
             l=l+1;
+        }
+        int []arr1=new int[l];
+        for(int i=0;i<l;i++){
+            arr1[i]=a%10;
+            a=a/10;
+        }
+
 }
