@@ -16,3 +16,7 @@ public class main {
 //    dll list=new dll();
 //    list.insertfirst(3);
 //    list.insertfirst(4);
+//    list.insertfirst(5);
+//    list.insertlast(3);
+//    list.display();
+
