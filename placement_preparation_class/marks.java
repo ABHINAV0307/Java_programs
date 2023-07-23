@@ -13,4 +13,10 @@ public class marks {
         }
         a=a+1;
         int n=a;
+        while(n>0){
+            flag++;
+        }
+        System.out.println(a);
+        if(arr[0]==9){
+            l=l+1;
 }
