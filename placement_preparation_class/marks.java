@@ -26,4 +26,9 @@ public class marks {
             a=a/10;
         }
 
+
+        for(int i=0;i<l;i++) {
+            System.out.print(arr1[i]+"  ");
+        }
+        }
 }
