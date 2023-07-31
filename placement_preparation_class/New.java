@@ -12,6 +12,11 @@
 //        }
 //        int count=0;
 //        int [] ans = new int[spells.length];
+//        for(int i=0;i<val.length;i++){
+//            for(int j=0;j<potions.length;j++){
+//                if(val[i]<=potions[j]){
+//                    count++;
+//                }
 //    }
 //    }
 //}
