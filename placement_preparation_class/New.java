@@ -17,6 +17,11 @@
 //                if(val[i]<=potions[j]){
 //                    count++;
 //                }
+//            }
+//            ans[i]=count;
+//            count=0;
+//        }
+//        return ans;
 //    }
 //    }
 //}
