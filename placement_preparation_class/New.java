@@ -8,6 +8,10 @@
 //
 //        long [] val =new long [spells.length];
 //        for(int i=0;i<spells.length;i++){
+//            val[i]=(success/spells[i])+1;
+//        }
+//        int count=0;
+//        int [] ans = new int[spells.length];
 //    }
 //    }
 //}
