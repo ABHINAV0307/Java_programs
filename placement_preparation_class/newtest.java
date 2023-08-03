@@ -12,6 +12,11 @@ public class newtest {
         for(int i=1;i<nums.length;i++){
             n[i]=nums[i]+n[i-1];
         }
+        for(int i=0;i<nums.length;i++){
+//            if(n[i]==(max-n[i])){
+//                System.out.println(i);
+//            }
+            System.out.print(n[i]+" ");
         }
         }
 
