@@ -17,6 +17,12 @@ public class newtest {
 //                System.out.println(i);
 //            }
             System.out.print(n[i]+" ");
+
+
+        }
+        System.out.println();
+        for(int i=0;i<nums.length;i++){
+            System.out.print(max-n[i]+" ");
         }
         }
 
