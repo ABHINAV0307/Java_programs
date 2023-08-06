@@ -16,3 +16,8 @@ String name,address,branch;
         System.out.println("enter second marks ");
 
         int marks2=sc.nextInt();
+
+        st1.name="ayush";
+    st1.mark=marks1;
+        st2.name="ayush";
+        st2.mark=marks2;
