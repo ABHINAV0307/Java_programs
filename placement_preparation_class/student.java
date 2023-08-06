@@ -26,3 +26,8 @@ String name,address,branch;
         System.out.println("marks of student 1 is more");
     }
     else
+        System.out.println("Marks of student 2 is more");
+//        System.out.println(st1.name+st1.mark +st1.address);
+//
+}
+}
