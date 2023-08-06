@@ -21,3 +21,8 @@ String name,address,branch;
     st1.mark=marks1;
         st2.name="ayush";
         st2.mark=marks2;
+    st1.address="Ghaziabad";
+    if(st1.mark>st2.mark){
+        System.out.println("marks of student 1 is more");
+    }
+    else
