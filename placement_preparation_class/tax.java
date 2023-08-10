@@ -12,3 +12,11 @@ public class tax {
             //System.out.println("eligible for income tax");
             return (int) (sal - (sal * 0.05));
         }
+        else
+            return (int) (sal - (sal * 0.1));
+    }
+
+    public static void main(String[] args) {
+        Scanner sc=new Scanner(System.in);
+        int sal;
+        tax [] v;
