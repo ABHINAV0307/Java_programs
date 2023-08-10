@@ -20,3 +20,13 @@ public class tax {
         Scanner sc=new Scanner(System.in);
         int sal;
         tax [] v;
+        v=new tax[2];
+        for(int i=0;i<2;i++)
+        {
+            v[i].sal=sc.nextInt();
+        }
+        for(int i=0;i<2;i++){
+            System.out.println( v[i].sal);
+        }
+    }
+}
