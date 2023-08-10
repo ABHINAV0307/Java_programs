@@ -5,3 +5,10 @@ import java.util.Scanner;
 public class tax {
     private int sal;
     static int incometax(int sal) {
+        if(sal<300000){
+        return (int) (sal - (sal * 0.01));
+        }
+        else if(sal>300000 && sal<500000) {
+            //System.out.println("eligible for income tax");
+            return (int) (sal - (sal * 0.05));
+        }
