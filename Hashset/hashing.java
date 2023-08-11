@@ -9,6 +9,7 @@ public class hashing {
         set.add(3);
         set.add(5);
         set.add(1);
+        set.getClass();
         System.out.println(set);
         //set is unique but need not be in order
 //another way of traversal using iterator
