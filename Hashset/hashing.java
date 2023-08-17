@@ -1,5 +1,6 @@
 package com.abhi.Hashset;
 
+import java.util.Arrays;
 import java.util.HashSet;
 import java.util.Iterator;
 
@@ -8,7 +9,7 @@ public class hashing {
         HashSet<Integer> set =new HashSet<>();
         set.add(3);
         set.add(5);
-        set.add(1);
+        set.add(3);
         set.getClass();
         System.out.println(set);
         //set is unique but need not be in order
