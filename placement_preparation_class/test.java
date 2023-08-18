@@ -15,3 +15,9 @@ public class test {
             rtl[i]=(i)+rtl[i+1];
 //            System.out.print(i+"  ");
 //            System.out.println();
+            System.out.print(rtl[i]+"  ");
+        }
+        System.out.println(" ");
+        for(int i=0;i<n;i++){
+            System.out.print(ltr[i]+"  ");
+        }
