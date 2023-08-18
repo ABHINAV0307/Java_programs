@@ -21,3 +21,9 @@ public class test {
         for(int i=0;i<n;i++){
             System.out.print(ltr[i]+"  ");
         }
+        System.out.println(" ");
+        for(int i=0;i<n;i++){
+            System.out.print(rtl[i]+"  ");
+        }
+    }
+}
