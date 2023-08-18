@@ -9,3 +9,9 @@ public class test {
         ltr[0]=1;
         rtl[n-1]=n;
         for(int i=1;i<n;i++){
+            ltr[i]=(i+1)+ltr[i-1];
+        }
+        for(int i=n-2;i>=0;i--){
+            rtl[i]=(i)+rtl[i+1];
+//            System.out.print(i+"  ");
+//            System.out.println();
