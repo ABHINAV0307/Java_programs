@@ -33,3 +33,8 @@ public class array_rec {
 
         System.out.println("first big-->"+fbig + "   Second big-->"+sbig);
 
+        System.out.println("first small-->"+fsmall+" Second small-->"+ssmall);
+
+
+        int end=arr.length-1;
+   op(arr,0,end);
