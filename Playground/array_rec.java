@@ -22,3 +22,9 @@ public class array_rec {
         else if (arr[i] > sbig && sbig != fbig) {
             sbig = arr[i];
         }
+    }
+    for(int i=0;i<arr.length;i++) {
+        if (arr[i] < fsmall) {
+            fsmall = arr[i];
+        } else if (arr[i] < ssmall && ssmall != fsmall) {
+            ssmall = arr[i];
