@@ -28,3 +28,8 @@ public class array_rec {
             fsmall = arr[i];
         } else if (arr[i] < ssmall && ssmall != fsmall) {
             ssmall = arr[i];
+        }
+    }
+
+        System.out.println("first big-->"+fbig + "   Second big-->"+sbig);
+
