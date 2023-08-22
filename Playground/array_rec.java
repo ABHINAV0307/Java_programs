@@ -38,3 +38,8 @@ public class array_rec {
 
         int end=arr.length-1;
    op(arr,0,end);
+        //System.out.println(Arrays.toString(arr));
+    }
+    public static void op(int []arr,int start,int end){
+        int temp=0;
+        if(start<end){
