@@ -43,3 +43,10 @@ public class array_rec {
     public static void op(int []arr,int start,int end){
         int temp=0;
         if(start<end){
+            temp=arr[start];
+            arr[start]=arr[end];
+            arr[end]=temp;
+            op(arr,start+1,end-1);
+        }
+    }
+}
