@@ -21,3 +21,11 @@ public class nnew {
         int []arr=new int []{1,1,2,2,2,3,4,5,5,5};
         ArrayList<Integer> val=new ArrayList<>();
         val.add(2);
+        val.add(3);
+        val.add(4);
+        val.add(1);
+        System.out.println(val.get(0));
+        HashSet<Integer> set =new HashSet<>();
+        for(int i=0;i<arr.length;i++){
+            set.add(arr[i]);
+        }
