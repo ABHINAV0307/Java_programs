@@ -29,3 +29,12 @@ public class nnew {
         for(int i=0;i<arr.length;i++){
             set.add(arr[i]);
         }
+       // System.out.println(set.size());
+
+        for(int i=0;i<arr.length-1;i++){
+            if(arr[i] != arr[i+1]){
+      //  System.out.println(arr[i]);
+    }
+}
+
+    }
