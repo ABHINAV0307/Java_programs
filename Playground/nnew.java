@@ -55,3 +55,7 @@ public class nnew {
 //        int i=0;
 //        for(int j=1;j<n;j++){
 //            if(!arr.get(i).equals(arr.get(j))){
+//                Collections.swap(arr, i+1, j);
+//                i++;
+//            }
+//        }
