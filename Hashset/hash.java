@@ -15,3 +15,7 @@ public class hash {
                     map.put(arr[i],map.get(arr[i])+1);
                 }else
                     map.put(arr[i],1);
+            }
+        }
+        for (Map.Entry<Integer,Integer> entry : map.entrySet())
+        {
