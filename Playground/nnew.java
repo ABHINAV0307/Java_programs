@@ -59,3 +59,5 @@ public class nnew {
 //                i++;
 //            }
 //        }
+//        return i+1;
+//    }
