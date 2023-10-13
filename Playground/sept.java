@@ -9,3 +9,4 @@ class Solution {
             if(nums[i]>=nums[i+1]){
                 dec++;
             }
+            if(nums[i]<=nums[i+1])
