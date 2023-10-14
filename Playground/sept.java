@@ -11,3 +11,4 @@ class Solution {
             }
             if(nums[i]<=nums[i+1])
                 inc++
+        }
