@@ -10,3 +10,4 @@ class Solution {
                 dec++;
             }
             if(nums[i]<=nums[i+1])
+                inc++
