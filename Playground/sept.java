@@ -12,3 +12,4 @@ class Solution {
             if(nums[i]<=nums[i+1])
                 inc++
         }
+        if(inc==nums.length-1 || dec == nums.length-1){
