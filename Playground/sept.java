@@ -13,3 +13,4 @@ class Solution {
                 inc++
         }
         if(inc==nums.length-1 || dec == nums.length-1){
+            return true;
